@@ -1,0 +1,85 @@
+/* Write your CSS code here. */
+
+* {
+  box-sizing: border-box;
+  font-family: 'roboto';
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  height: 100vh;
+  background-size: cover;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.feedback-container {
+  background-color: #ffffff;
+  min-height: 30%;
+  min-width: 45%;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.feedback-text {
+  color: #0f172a;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.feedback-expression-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.expression-cont {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin-left: 6px;
+}
+
+.img {
+  height: 60px;
+  width: 60px;
+}
+
+.expression-name {
+  text-align: center;
+  color: #1e293b;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.feedback-thankyou-container {
+  background-color: #ffffff;
+  min-height: 30%;
+  min-width: 45%;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.thankyou-text {
+  color: #0f172a;
+  font-size: 29px;
+  font-weight: 600;
+}
+
+.thankyou-description {
+  text-align: center;
+  color: #1e293b;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.is-block-cont {
+  display: none;
+}
